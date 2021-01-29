@@ -1,8 +1,13 @@
 .Footer {
     bottom: 0;
-    background-color: #1C5C4F;
+    background-color: #292929;
     text-align: center;
     height: 45px;
     z-index: 1;
     color: white;
+}
+
+.Footer a, a:visited, a:hover {
+    text-decoration: none;
+    color: #fe0f47;
 }

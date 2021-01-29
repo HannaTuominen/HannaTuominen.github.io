@@ -1,14 +1,14 @@
 import React from 'react';
 import './Toolbar.css';
-// import {useHistory} from 'react-router-dom';
+import {useHistory} from 'react-router-dom';
 import Navigation from "./Navigation/Navigation";
 
-const toolbar = (props) => {
+const Toolbar = (props) => {
 
-  // const history = useHistory();
+  const history = useHistory();
 
   const getToHome = () => {
-    // history.push("/");
+    history.push("/");
   };
 
   return (
@@ -22,4 +22,4 @@ const toolbar = (props) => {
   </header>
   )};
 
-export default toolbar;
+export default Toolbar;

@@ -5,7 +5,7 @@ import Toolbar from "../Toolbar/Toolbar";
 import Footer from "../Footer/Footer";
 
 const layout = ( props ) => (
-    <div className="Container">
+    <div className="LayoutContainer">
       <Toolbar/>
       <main className="Content">
         {props.children}

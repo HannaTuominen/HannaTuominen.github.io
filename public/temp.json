@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "githubUrl": "https://github.com/HannaTuominen/SHS-Blog",
+    "liveUrl": "https://shs-blogi.herokuapp.com/",
+    "projectType": 1,
+    "imageUrl": "/shsblog.png",
+    "projectName": "SHS-Blog",
+    "projectDescription": ""
+  },
+  {
+    "id": 2,
+    "githubUrl": "https://github.com/HannaTuominen/photo-browser",
+    "liveUrl": "https://hannasphotobrowser.herokuapp.com/",
+    "projectType": 1,
+    "imageUrl": "/photobrowser.png",
+    "projectName": "Photo Browser",
+    "projectDescription": ""
+  },
+  {
+    "id": 3,
+    "githubUrl": "https://github.com/HannaTuominen/harrypotter",
+    "liveUrl": "https://harrypotterangularapp.herokuapp.com/",
+    "projectType": 1,
+    "imageUrl": "/harrypotter.png",
+    "projectName": "Harry Potter",
+    "projectDescription": "Made with Angular"
+  },
+  {
+    "id": 4,
+    "githubUrl": "https://github.com/maijav/fancynotes",
+    "liveUrl": "https://play.google.com/store/apps/details?id=fi.example.fancynotes&hl=fi",
+    "projectType": 2,
+    "imageUrl": "",
+    "projectName": "Fancy Notes",
+    "projectDescription": ""
+  },
+  {
+    "id": 5,
+    "githubUrl": "https://github.com/Malitsu/projectparsta",
+    "liveUrl": "https://play.google.com/store/apps/details?id=fi.tuni.facingo",
+    "projectType": 2,
+    "imageUrl": "",
+    "projectName": "Facingo",
+    "projectDescription": ""
+  }
+]

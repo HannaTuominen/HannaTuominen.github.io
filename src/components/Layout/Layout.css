@@ -1,12 +1,15 @@
 .Content {
     margin-top: 56px;
     text-align: center;
+    background-color: rgba(41, 41, 41, 0.8);
+    height: 100%;
 }
 
-.Container {
+.LayoutContainer {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    height: 100%;
 }
 
 main {
