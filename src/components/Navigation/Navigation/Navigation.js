@@ -1,33 +1,13 @@
 import React from 'react';
 import './Navigation.css';
-import {NavLink} from "react-router-dom";
+
+import NavigationItem from "./NavigationItem/NavigationItem";
 
 const navigation = (props) => (
   <ul className="NavigationItems">
-    <li className="NavigationItem">
-      <NavLink
-        to="/projects/mobile"
-        exact={props.exact}
-        activeClassName="active">
-        Mobile
-      </NavLink>
-    </li>
-    <li className="NavigationItem">
-      <NavLink
-        to="/projects/web"
-        exact={props.exact}
-        activeClassName="active">
-        Web
-      </NavLink>
-    </li>
-    <li className="NavigationItem">
-      <NavLink
-        to="/projects/other"
-        exact={props.exact}
-        activeClassName="active">
-        Other
-      </NavLink>
-    </li>
+    <NavigationItem link="/projects/mobile">Mobile</NavigationItem>
+    <NavigationItem link="/projects/web">Web</NavigationItem>
+    <NavigationItem link="/projects/other">Other</NavigationItem>
   </ul>
 );
 
