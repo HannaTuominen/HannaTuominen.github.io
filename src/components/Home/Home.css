@@ -10,6 +10,7 @@
 
 .ItemsContainer {
     flex: 1;
+    margin-top:10px;
 }
 
 .CenterItemsContainer {

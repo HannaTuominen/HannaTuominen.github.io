@@ -42,8 +42,8 @@ const ProjectItem = ( props ) => {
           {props.github.length > 0 || props.live.length > 0 ?
             <div>
               <h5>Check out more about this project:</h5>
-              {props.github.length >0 ? <img src={Github} style={{width: "50px", paddingRight: "10px"}} onClick={() => redirectToAnotherPage(props.github)}/>: null}
-              {props.live.length >0 ? <img src={Live} style={{width: "50px"}} onClick={() => redirectToAnotherPage(props.live)}/>: null}
+              {props.github.length >0 ? <img src={Github} style={{width: "60px", paddingRight: "10px"}} onClick={() => redirectToAnotherPage(props.github)}/>: null}
+              {props.live.length >0 ? <img src={Live} style={{width: "60px"}} onClick={() => redirectToAnotherPage(props.live)}/>: null}
             </div>
           : null}
         </div>

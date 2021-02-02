@@ -7,7 +7,7 @@
     color: #fe0f47;
 }
 
-.AboutTitle{
+.AboutTitle {
     margin-left: 15px;
 }
 
@@ -20,7 +20,7 @@
     cursor: pointer;
 }
 
-.AboutRow p {
+.AboutRow p, h4 {
     margin-right: 15px;
 }
 

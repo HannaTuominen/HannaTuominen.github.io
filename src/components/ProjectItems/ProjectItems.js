@@ -15,9 +15,9 @@ const ProjectItems = ( props ) => {
     });
 
   return (
-    <React.Fragment>
+    <div className="ProjectItemsContainer">
       {items}
-    </React.Fragment>
+    </div>
   );
 };
 
