@@ -19,12 +19,8 @@ const App  = props => {
 
     if(width < 801) {
       setMobile(true);
-      console.log(width);
-      console.log(mobile);
     } else {
       setMobile(false);
-      console.log(width);
-      console.log(mobile);
     }
   });
 

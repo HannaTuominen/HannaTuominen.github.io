@@ -22,9 +22,7 @@ const MobileContainer = props => {
     setIsLoading(true);
     axios.get('projects.json')
       .then( response => {
-        // console.log(response.data)
-        let array = [];
-
+        let array;
         array = (response.data.filter(item => item.projectType === 1));
         setProjects(array);
         setIsLoading(false);
