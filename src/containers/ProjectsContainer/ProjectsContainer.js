@@ -11,10 +11,6 @@ const ProjectsContainer = props => {
   const [hasError, setHasError] = useState();
   const [isLoading, setIsLoading] = useState(false);
 
-  const closeModalHandler = () => {
-    props.history.push("/");
-  };
-
   const clearError = () => {
     setHasError(false);
     setIsLoading(false);
@@ -26,23 +22,13 @@ const ProjectsContainer = props => {
     axios.get('projects.json')
       .then( response => {
         // console.log(response.data)
-        setProjects(response.data);
+        let array = [];
+
+        array = (response.data.filter(item => item.projectType === 3));
+        setProjects(array);
         setIsLoading(false);
       })
      .catch((error) => setHasError(error.message));
-
-    //  fetch('/temp.json',{
-    //   headers : {
-    //     'Content-Type': 'application/json',
-    //     'Accept': 'application/json'
-    //   }
-    // })
-    //   .then(r => r.json())
-    //   .then(json => {
-    //     console.log(json);
-    //    setProjects(json)
-    //     setIsLoading(false);
-    // })
   }, []);
 
   return (

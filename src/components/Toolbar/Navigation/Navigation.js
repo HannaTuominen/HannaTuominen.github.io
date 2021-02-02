@@ -6,7 +6,7 @@ const navigation = (props) => (
   <ul className="NavigationItems">
     <li className="NavigationItem">
       <NavLink
-        to="/mobile"
+        to="/projects/mobile"
         exact={props.exact}
         activeClassName="active">
         Mobile
@@ -14,7 +14,7 @@ const navigation = (props) => (
     </li>
     <li className="NavigationItem">
       <NavLink
-        to="/web"
+        to="/projects/web"
         exact={props.exact}
         activeClassName="active">
         Web
@@ -22,7 +22,7 @@ const navigation = (props) => (
     </li>
     <li className="NavigationItem">
       <NavLink
-        to="/other"
+        to="/projects/other"
         exact={props.exact}
         activeClassName="active">
         Other

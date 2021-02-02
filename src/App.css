@@ -5,3 +5,21 @@
     background-image: url(assets/backgroundimage2.jpg);
     height: 100%;
 }
+
+.HomeContainer {
+    display: flex;
+    height: 100%;
+
+}
+
+.Welcome {
+    flex: 1;
+    height: 100%;
+}
+
+.MoreInfo {
+    flex: 4;
+    background-color: rgba(41, 41, 41, 0.5);
+    box-sizing: border-box;
+    height: 100%;
+}

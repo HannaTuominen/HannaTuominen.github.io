@@ -1,0 +1,18 @@
+.WelcomeText {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+.WelcomeText h1 {
+    color: #fe0f47;
+    font-size: 50px;
+}
+
+.WelcomeText h2 {
+    color: #ff5802;
+    font-size: 40px;
+}

@@ -1,24 +1,29 @@
 import React, { Component } from 'react';
-import ProjectsContainer from "./containers/ProjectsContainer/ProjectsContainer";
+
 import {Route, Switch} from "react-router-dom";
 import Layout from "./components/Layout/Layout";
-import Home from "./components/Home/Home";
-import MobileContainer from "./containers/MobileContainer/MobileContainer";
-import WebContainer from "./containers/WebContainer/WebContainer";
 
 import './App.css';
+import Projects from "./containers/Projects/Projects";
+import Home from "./components/Home/Home";
+import LeftComponent from "./components/LeftComponent/LeftComponent";
 
 class App extends Component {
   render() {
     return (
       <div className="AppContainer">
         <Layout>
-          <Switch>
-            <Route path="/mobile" component={MobileContainer}/>
-            <Route path="/web" component={WebContainer}/>
-            <Route path="/other" component={ProjectsContainer}/>
-            <Route path="/" component={Home} exact/>
-          </Switch>
+          <div className="HomeContainer">
+          <div className="Welcome">
+            <Route path="/" component={LeftComponent}/>
+          </div>
+          <div className="MoreInfo">
+            <Switch>
+              <Route path="/projects/" component={Projects}/>
+              <Route path="/" component={Home} exact/>
+            </Switch>
+          </div>
+          </div>
         </Layout>
       </div>
     );

@@ -1,0 +1,16 @@
+.ProjectItemContainer {
+    width: 100%;
+    display: flex;
+}
+
+.ProjectItemContainerImage {
+    flex: 1;
+}
+
+.ProjectItemContainerInfo {
+    flex: 3;
+}
+
+.ProjectItemContainerImage img{
+    width: 20vw;
+}
