@@ -13,17 +13,17 @@ class App extends Component {
     return (
       <div className="AppContainer">
         <Layout>
-          <div className="HomeContainer">
-          <div className="Welcome">
+          {/*<div className="HomeContainer">*/}
+          <div className="Leftcolumn">
             <Route path="/" component={LeftComponent}/>
           </div>
-          <div className="MoreInfo">
+          <div className="Rightcolumn">
             <Switch>
               <Route path="/projects/" component={Projects}/>
               <Route path="/" component={Home} exact/>
             </Switch>
           </div>
-          </div>
+          {/*</div>*/}
         </Layout>
       </div>
     );

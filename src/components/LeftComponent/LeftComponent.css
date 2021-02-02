@@ -1,7 +1,12 @@
 .WelcomeText {
-    align-items: center;
-    height: 10em;
-    display: flex;
+    /*align-items: center;*/
+    /*height: 10em;*/
+    /*display: flex;*/
+}
+
+.WelcomeText img {
+    cursor: pointer;
+    padding: 5px;
 }
 
 .WelcomeText h1 {
@@ -13,6 +18,7 @@
     color: #ff5802;
     font-size: 40px;
 }
+
 
 @media (max-width: 499px) {
     .WelcomeText h1 {

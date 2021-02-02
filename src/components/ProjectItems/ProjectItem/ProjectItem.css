@@ -1,12 +1,19 @@
 .ProjectItemContainer {
-    width: 100%;
+    /*background-color: white;*/
+    padding: 20px;
+    margin-top: 20px;
     display: flex;
+    box-sizing: border-box;
 }
 
 .ProjectItemContainerImage {
     flex: 1;
     margin: 0;
     top: 0;
+}
+
+.Redirect img {
+    cursor: pointer;
 }
 
 .ProjectItemContainerInfo {
@@ -39,6 +46,7 @@
 @media (max-width: 499px) {
     .ProjectItemContainer {
         display: block;
+        padding: 0;
     }
 
     .ProjectItemContainerImageWeb img{
