@@ -4,6 +4,7 @@ import './ProjectsContainer.css';
 import ProjectItems from "../../components/ProjectItems/ProjectItems";
 import ErrorModal from "../../components/UI/ErrorModal/ErrorModal";
 import LoadingIndicator from "../../components/UI/LoadingIndicator/LoadingIndicator";
+import axios from '../../axios-fetching';
 
 const ProjectsContainer = props => {
   const [projects, setProjects] = useState([]);
@@ -22,19 +23,26 @@ const ProjectsContainer = props => {
 
   useEffect(  () => {
     setIsLoading(true);
-    fetch('/temp.json',{
-     headers : {
-       'Content-Type': 'application/json',
-       'Accept': 'application/json'
-     }
-   })
-     .then(r => r.json())
-     .then(json => {
-       console.log(json);
-      setProjects(json)
-       setIsLoading(false);
-   })
+    axios.get('projects.json')
+      .then( response => {
+        // console.log(response.data)
+        setProjects(response.data);
+        setIsLoading(false);
+      })
      .catch((error) => setHasError(error.message));
+
+    //  fetch('/temp.json',{
+    //   headers : {
+    //     'Content-Type': 'application/json',
+    //     'Accept': 'application/json'
+    //   }
+    // })
+    //   .then(r => r.json())
+    //   .then(json => {
+    //     console.log(json);
+    //    setProjects(json)
+    //     setIsLoading(false);
+    // })
   }, []);
 
   return (
