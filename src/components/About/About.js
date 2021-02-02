@@ -19,7 +19,7 @@ const About = props => {
         <div  className="AboutColumn">
           <h2>Currently</h2>
           <h4>Education</h4>
-          <p>third year programming student at Tampere University of Applied
+          <p>Third year programming student at Tampere University of Applied
             Sciences (TAMK). </p>
           <h4>Speciality</h4>
           <p>Software Development Department.</p>
