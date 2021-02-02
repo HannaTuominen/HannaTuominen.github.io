@@ -8,6 +8,10 @@
     /*color: white;*/
 }
 
+.Footer p {
+    padding-top: 10px;
+}
+
 .Footer a, a:visited, a:hover {
     text-decoration: none;
     color: #fe0f47;
