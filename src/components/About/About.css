@@ -16,6 +16,10 @@
     margin-top: 10px;
 }
 
+.ContactLinks img {
+    cursor: pointer;
+}
+
 .AboutRow p {
     margin-right: 15px;
 }

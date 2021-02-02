@@ -5,6 +5,7 @@
 }
 .HomeContainer img {
     padding-right: 10px;
+    cursor: pointer;
 }
 
 .ItemsContainer {
