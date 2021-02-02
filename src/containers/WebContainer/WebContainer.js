@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-// import './ProjectsContainer.css';
 
 import ProjectItems from "../../components/ProjectItems/ProjectItems";
 import ErrorModal from "../../components/UI/ErrorModal/ErrorModal";
