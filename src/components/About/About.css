@@ -1,56 +1,50 @@
-/*.LeftTextBox {*/
-/*    background-color: rgba(0, 0, 0, 0.8);*/
-/*}*/
+.AboutContainer {
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
-/*.WelcomeText img {*/
-/*    cursor: pointer;*/
-/*    padding: 5px;*/
-/*}*/
+.Bolding {
+    color: #fe0f47;
+}
 
-/*.LeftTextBox h1 {*/
-/*    !*color: #fe0f47;*!*/
-/*    font-size: 2vw;*/
-/*    color: white;*/
-/*}*/
+.AboutTitle{
+    margin-left: 15px;
+}
 
-/*.LeftTextBox h2 {*/
-/*    color: #ff5802;*/
-/*    font-size: 1vw;*/
-/*    margin: 5px;*/
-/*}*/
+.ContactLinks {
+    margin-right: 15px;
+    margin-top: 10px;
+}
 
-/*.LeftTextBox img {*/
-/*    padding-right: 10px;*/
-/*    padding-bottom: 20px;*/
-/*}*/
+.AboutRow p {
+    margin-right: 15px;
+}
 
-/*.LeftTextBox h3, h4 {*/
-/*    margin: 0;*/
-/*}*/
+.AboutRow h2 {
+    color: #ff5802;
+    margin-bottom: 2px;
+}
 
-/*@media (max-width: 799px) {*/
-/*    .LeftTextBox h1 {*/
-/*        font-size: 40px;*/
-/*    }*/
+.AboutRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
-/*    .LeftTextBox h2 {*/
-/*        font-size: 30px;*/
-/*    }*/
+.AboutColumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin-left: 15px;
+}
 
-/*.MoreInfoText {*/
-/*    margin: 10px;*/
-/*}*/
-
-/*.MoreInfoText p {*/
-/*    margin: 5px;*/
-/*}*/
-
-/*.HomeText {*/
-/*    background-color: rgba(0, 0, 0, 0.8);*/
-/*    padding: 30px 0;*/
-/*}*/
-
-/*.Bolding {*/
-/*    color: #fe0f47;*/
-/*}*/
-
+@media (max-width: 800px) {
+    .AboutRow {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}

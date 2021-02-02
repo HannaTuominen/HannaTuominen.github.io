@@ -5,6 +5,8 @@ import ErrorModal from "../../components/UI/ErrorModal/ErrorModal";
 import LoadingIndicator from "../../components/UI/LoadingIndicator/LoadingIndicator";
 import axios from '../../axios-fetching';
 
+import '../Containers.css';
+
 const MobileContainer = props => {
   const [projects, setProjects] = useState([]);
   const [hasError, setHasError] = useState();
@@ -31,8 +33,8 @@ const MobileContainer = props => {
   }, []);
 
   return (
-    <div className="ProjectsContainer">
-      <div>
+    <div className="Containers">
+      <div className="ContainersTitle">
         <h1>Web projects</h1>
       </div>
       {hasError ?

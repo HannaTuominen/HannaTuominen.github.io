@@ -15,7 +15,7 @@ const Home = props => {
           <h1>{"<Coder>"}</h1>
           <h3>Hanna Tuominen</h3>
           <p>Full Stack Developer who is interested in working with chill people, difficult and versatile projects.
-          My goal in life is to write clean, elegant and efficient code - (and own a dog).</p>
+          My goal in life is to write clean, elegant and efficient code - (and to own a dog).</p>
           <br/>
           <h4>Social media:</h4>
           <br/>
@@ -26,25 +26,25 @@ const Home = props => {
       <div className="MiddleContainer"></div>
       <div className="ItemsContainer">
         <div className="CenterItemsContainer">
-          <h1>{"<Knowledge>"}</h1>
+          <h1>{"<Skills>"}</h1>
           <h2>Frontend</h2>
-          <h4>React</h4>
-          <h4>Angular</h4>
-          <h4>JavaScript</h4>
-          <h4>Java</h4>
-          <h4>HTML5</h4>
-          <h4>CSS3</h4>
-          <h4>Python</h4>
-          <h4>C#</h4>
+          <p>React</p>
+          <p>Angular</p>
+          <p>JavaScript</p>
+          <p>Java</p>
+          <p>HTML5</p>
+          <p>CSS3</p>
+          <p>Python</p>
+          <p>C#</p>
           <h2>Backend</h2>
-          <h4>SpringBoot</h4>
-          <h4>SQL</h4>
+          <p>SpringBoot</p>
+          <p>SQL</p>
           <h2>Other</h2>
-          <h4>AWS</h4>
-          <h4>Photoshop</h4>
-          <h4>Unity</h4>
-          <h4>Scrum</h4>
-          <h4>Data Analytics</h4>
+          <p>AWS</p>
+          <p>Photoshop</p>
+          <p>Unity</p>
+          <p>Scrum</p>
+          <p>Data Analytics</p>
         </div>
       </div>
     </div>

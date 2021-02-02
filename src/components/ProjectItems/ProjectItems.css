@@ -1,0 +1,18 @@
+.ProjectItemsContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+/*.ProjectItemsRow {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    flex-wrap: wrap;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.ProjectItemsColumn {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    flex-basis: 100%;*/
+/*    flex: 1;*/
+/*}*/

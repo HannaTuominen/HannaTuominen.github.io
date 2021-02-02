@@ -36,31 +36,11 @@ const App  = props => {
   return (
     <div className="AppContainer">
       <Layout>
-        {/*{!mobile ?*/}
-        {/*  <React.Fragment>*/}
-            {/*<div className="Leftcolumn">*/}
-            {/*  <Route path="/" component={About}/>*/}
-            {/*</div>*/}
-            <div className="Rightcolumn">
-              <Switch>
-                <Route path="/projects/" component={Projects}/>
-                <Route path="/about" component={About}/>
-                <Route path="/" component={Home} exact/>
-              </Switch>
-            </div>
-          {/*</React.Fragment> :*/}
-          {/*<React.Fragment>*/}
-          {/*  <div className="Rightcolumn">*/}
-          {/*    <Switch>*/}
-          {/*      <Route path="/projects/" component={Projects}/>*/}
-          {/*      /!*<Route path="/" component={Home} exact/>*!/*/}
-          {/*    </Switch>*/}
-          {/*  </div>*/}
-          {/*  /!*<div className="Leftcolumn">*!/*/}
-          {/*  /!*  <Route path="/" component={About}/>*!/*/}
-          {/*  /!*</div>*!/*/}
-          {/*</React.Fragment>*/}
-        {/*}*/}
+        <Switch>
+          <Route path="/projects/" component={Projects}/>
+          <Route path="/about" component={About}/>
+          <Route path="/" component={Home} exact/>
+        </Switch>
       </Layout>
     </div>
   );

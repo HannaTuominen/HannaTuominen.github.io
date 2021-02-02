@@ -1,6 +1,7 @@
 .HomeContainer {
     display: flex;
     flex-direction: row;
+    text-align: justify;
 }
 .HomeContainer img {
     padding-right: 10px;
@@ -34,13 +35,14 @@
     margin: 0;
 }
 
-.CenterItemsContainer h3, h4 {
+.CenterItemsContainer h3, h4, p {
     margin: 0;
 }
 
 @media (max-width: 800px) {
     .HomeContainer {
         flex-direction: column;
+        text-align: center;
     }
     .CenterItemsContainer{
         position: unset;

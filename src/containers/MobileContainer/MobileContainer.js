@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-// import './ProjectsContainer.css';
+import '../Containers.css';
 
 import ProjectItems from "../../components/ProjectItems/ProjectItems";
 import ErrorModal from "../../components/UI/ErrorModal/ErrorModal";
@@ -30,8 +30,8 @@ const MobileContainer = props => {
   }, []);
 
   return (
-    <div className="ProjectsContainer">
-      <div>
+    <div className="Containers">
+      <div className="ContainersTitle">
         <h1>Mobile projects</h1>
       </div>
       {hasError ?

@@ -5,17 +5,3 @@
     background-image: url(assets/backgroundimage3.jpg);
     height: 100%;
 }
-
-.Rightcolumn {
-    /*float: left;*/
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-/*@media (max-width: 800px) {*/
-/*    .Rightcolumn {*/
-/*        width: 100%;*/
-/*        padding: 0;*/
-/*    }*/
-/*}*/

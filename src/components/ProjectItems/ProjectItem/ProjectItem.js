@@ -37,12 +37,12 @@ const ProjectItem = ( props ) => {
       {image}
       <div className="ProjectItemContainerInfo">
         <h3>{props.title}</h3>
-        <h4>{props.desc}</h4>
+        <p>{props.desc}</p>
         <div className="Redirect">
           <h5>Check out the source code and live version:</h5>
           <img src={Github} style={{width: "50px", paddingRight: "10px"}} onClick={() => redirectToAnotherPage(props.github)}/>
           <img src={Live} style={{width: "50px"}} onClick={() => redirectToAnotherPage(props.live)}/>
-      </div>
+        </div>
       </div>
     </div>
   );

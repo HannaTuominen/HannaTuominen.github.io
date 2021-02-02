@@ -1,10 +1,8 @@
 .ProjectItemContainer {
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     margin-top: 20px;
     display: flex;
     box-sizing: border-box;
-
 }
 
 .ProjectItemContainerImage {
@@ -43,7 +41,6 @@
     margin: 10px;
 }
 
-
 @media (max-width: 499px) {
     .ProjectItemContainer {
         display: block;
@@ -60,4 +57,14 @@
         object-fit:scale-down;
     }
 
+}
+
+
+@media (max-width: 800px) {
+    .ProjectRow {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 }
