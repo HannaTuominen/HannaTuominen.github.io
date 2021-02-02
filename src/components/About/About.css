@@ -1,0 +1,56 @@
+/*.LeftTextBox {*/
+/*    background-color: rgba(0, 0, 0, 0.8);*/
+/*}*/
+
+/*.WelcomeText img {*/
+/*    cursor: pointer;*/
+/*    padding: 5px;*/
+/*}*/
+
+/*.LeftTextBox h1 {*/
+/*    !*color: #fe0f47;*!*/
+/*    font-size: 2vw;*/
+/*    color: white;*/
+/*}*/
+
+/*.LeftTextBox h2 {*/
+/*    color: #ff5802;*/
+/*    font-size: 1vw;*/
+/*    margin: 5px;*/
+/*}*/
+
+/*.LeftTextBox img {*/
+/*    padding-right: 10px;*/
+/*    padding-bottom: 20px;*/
+/*}*/
+
+/*.LeftTextBox h3, h4 {*/
+/*    margin: 0;*/
+/*}*/
+
+/*@media (max-width: 799px) {*/
+/*    .LeftTextBox h1 {*/
+/*        font-size: 40px;*/
+/*    }*/
+
+/*    .LeftTextBox h2 {*/
+/*        font-size: 30px;*/
+/*    }*/
+
+/*.MoreInfoText {*/
+/*    margin: 10px;*/
+/*}*/
+
+/*.MoreInfoText p {*/
+/*    margin: 5px;*/
+/*}*/
+
+/*.HomeText {*/
+/*    background-color: rgba(0, 0, 0, 0.8);*/
+/*    padding: 30px 0;*/
+/*}*/
+
+/*.Bolding {*/
+/*    color: #fe0f47;*/
+/*}*/
+

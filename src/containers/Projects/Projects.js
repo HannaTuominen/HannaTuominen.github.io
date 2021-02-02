@@ -3,6 +3,7 @@ import {Route, Switch} from "react-router-dom";
 
 import Home from "../../components/Home/Home";
 import LoadingIndicator from "../../components/UI/LoadingIndicator/LoadingIndicator";
+// import About from "";
 
 const MobileContainer = React.lazy(() => {
   return import('../MobileContainer/MobileContainer');
