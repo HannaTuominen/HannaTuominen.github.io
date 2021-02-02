@@ -34,7 +34,7 @@ const MobileContainer = props => {
   return (
     <div className="ProjectsContainer">
       <div>
-        <h1>Other projects</h1>
+        <h1>Web projects</h1>
       </div>
       {hasError ?
         <ErrorModal

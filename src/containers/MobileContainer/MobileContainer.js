@@ -21,9 +21,7 @@ const MobileContainer = props => {
     setIsLoading(true);
     axios.get('projects.json')
       .then( response => {
-        // console.log(response.data)
-        let array = [];
-
+        let array;
         array = (response.data.filter(item => item.projectType === 2));
         setProjects(array);
         setIsLoading(false);
@@ -34,7 +32,7 @@ const MobileContainer = props => {
   return (
     <div className="ProjectsContainer">
       <div>
-        <h1>Other projects</h1>
+        <h1>Mobile projects</h1>
       </div>
       {hasError ?
         <ErrorModal
