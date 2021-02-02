@@ -9,7 +9,6 @@
 .HomeContainer {
     display: flex;
     height: 100%;
-
 }
 
 .Welcome {
@@ -22,4 +21,10 @@
     background-color: rgba(41, 41, 41, 0.5);
     box-sizing: border-box;
     height: 100%;
+}
+
+@media (max-width: 499px) {
+    .HomeContainer {
+        display: block;
+    }
 }

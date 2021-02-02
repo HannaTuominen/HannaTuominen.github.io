@@ -5,12 +5,50 @@
 
 .ProjectItemContainerImage {
     flex: 1;
+    margin: 0;
+    top: 0;
 }
 
 .ProjectItemContainerInfo {
     flex: 3;
 }
 
-.ProjectItemContainerImage img{
-    width: 20vw;
+.ProjectItemContainerImageWeb img{
+    width: 450px;
+    /*height: 450px;*/
+    object-fit:scale-down;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ProjectItemContainerImageMobile img{
+    /*width: 450px;*/
+    height: 450px;
+    object-fit:scale-down;
+    margin: 10px;
+}
+
+.ProjectItemContainerImageOther img{
+    /*width: 450px;*/
+    height: 450px;
+    object-fit:scale-down;
+    margin: 10px;
+}
+
+
+@media (max-width: 499px) {
+    .ProjectItemContainer {
+        display: block;
+    }
+
+    .ProjectItemContainerImageWeb img{
+        width: 300px;
+        object-fit:scale-down;
+    }
+
+    .ProjectItemContainerImageMobile img{
+        height: 350px;
+        object-fit:scale-down;
+    }
+
 }
